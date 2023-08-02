@@ -265,3 +265,42 @@ main {
   color: #666;
 }
 
+/* Add this at the end of your existing CSS to modify styles for screens smaller than 768 pixels wide, typical for smartphones */
+@media (max-width: 768px) {
+  #main-icon img {
+    width: 40px; /* Reduce the size of the icon */
+    left: 5%; /* Adjust the position */
+  }
+
+  #title a {
+    margin-left: 2%; /* Reduce the left margin */
+    font-size: 0.7em; /* You might want to reduce the font size */
+  }
+
+  #navbar-wrapper {
+    padding-right: 5%; /* You might want to reduce the right padding */
+  }
+  
+  #navBar li {
+    padding: 4px; /* Reduce padding between navbar items */
+  }
+  
+  #navBar li a {
+    font-size: 0.8em; /* Reduce font size of navbar links */
+  }
+  
+  #whiteDevbox {
+    width: 100%;
+    right: 0; /* Aligns to the right edge */
+  }
+
+  #welcome-section {
+    left: 50%;
+  }
+
+  #navbar-wrapper {
+    padding-right: 5%;
+  }
+  
+  /* Add any other adjustments needed for mobile here */
+}
