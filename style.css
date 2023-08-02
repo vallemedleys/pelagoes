@@ -72,6 +72,54 @@ h1 {
   }
 }
 
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 101;
+}
+
+.hamburger-menu .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 4px 0;
+  background-color: #333;
+}
+
+#mobile-nav {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px; /* You can adjust this */
+  background-color: #fff;
+  z-index: 100;
+}
+
+#mobile-nav #navBar {
+  padding: 10px;
+  list-style-type: none;
+}
+
+#mobile-nav #navBar li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Styles for screens smaller than 768px wide */
+@media (max-width: 768px) {
+  .hamburger-menu {
+    display: block;
+  }
+}
 
  
 header {
@@ -137,6 +185,7 @@ header {
 #navBar li a:hover::after {
   transform: scaleX(1); /* Expand the underline to full width on hover */
 }
+
 
 /* Main Page Info */
 
@@ -286,18 +335,9 @@ main {
   }
 
   #navbar-wrapper {
-    padding-right: 5%; /* You might want to reduce the right padding */
+    display: none;
   }
   
-  #navBar li {
-    padding: 3px; /* Reduce padding between navbar items */
-  }
-  
-  #navBar li a {
-    font-size: 0.8em; /* Reduce font size of navbar links */
-    letter-spacing: 0.001;
-  }
-
   #whiteDevbox {
     width: 50%;
     height: 30%;
@@ -364,4 +404,10 @@ main {
   }
   
   /* Add any other adjustments needed for mobile here */
+}
+
+
+
+@media (max-width: 480px) {
+  /* CSS rules for smaller smartphones go here */
 }
