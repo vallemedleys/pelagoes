@@ -202,8 +202,6 @@ main {
 }
 
 
-
-
 #myButton:hover {
   background-color: #4974e0; /* Darker green on hover */
   border: 2px solid #4974e0; 
@@ -212,7 +210,7 @@ main {
 
 
 #lottie-animation {
-  width: 400px; /* Adjust as needed */
+  width: 380px; /* Adjust as needed */
   height: 400px; /* Adjust as needed */
   position: absolute;
   top: 25%;
@@ -292,20 +290,21 @@ main {
   #whiteDevbox {
     width: 50%;
     height: 30%;
-    top: 39%;
+    top: 28%;
     right: 0; /* Aligns to the right edge */
   }
 
   #design-cube{
     width: 6%;
     height: 5%;
-    top: 59%;
+    top: 48%;
     right: 0; /* Aligns to the right edge */
   }
 
   #lottie-animation {
     width: 40%;
     right: 0; /* Aligns to the right edge */
+    top: 14%;
   }
 
   #welcome-sectionheader {
@@ -318,7 +317,6 @@ main {
     left: 0%;
   }
 
-
   #welcome-section {
     left: 50%;
     width: 48%;
@@ -326,6 +324,28 @@ main {
     font-size: 60%;
     top: 30%;
     left: 28%;
+  }
+
+  #buttonWrapper {
+    text-align: center;
+  }
+
+
+  #myButton {
+    left: 15%;
+    width: 38%;
+    height: 5%;
+    font-size: 90%;
+    top: 38%;
+    left: 4%;
+    text-align: center;
+    display: inline-block;
+    line-height: 5%;
+
+  }
+
+  #myButton p{
+    top: 35%;
   }
 
   #navbar-wrapper {
