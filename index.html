@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Pelagoes</title> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.8/lottie.min.js"></script>
+    <script>
+      // Smooth scrolling when clicking on navigation links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <div id="main-icon">
+        <a href="https://www.linkedin.com/in/cameron-m-collins/">
+          <img src="paperboat 1.svg" alt="paper boat">
+        </a>
+      </div>
+      <div id="title"> 
+        <a href="#home"><h1>Pelagoes</h1></a>
+      </div>
+      
+      <div id="navbar-wrapper">
+        <nav>
+          <ul id="navBar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div id="welcome-sectionheader">
+        <h1>Jira Experts, Workflow Masters</h1>
+      </div>
+
+      <div id="welcome-section">
+        <p>Maximize your Atlassian capabilities with our trusted team of experts to conquer any challenge with ease.</p> 
+      </div>
+      <div id="whiteDevbox"></div>
+      <div id="design-cube"></div>
+      <div id="lottie-animation">  </div>
+        <script>
+          lottie.loadAnimation({
+            container: document.getElementById('lottie-animation'), // the dom element that will contain the animation
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'resourceanimation.json' // the path to the animation json
+          });
+        </script>
+      </div>
+      <div id="buttonWrapper">
+          <button id="myButton">
+            Get Started Now
+          </button>
+      </div>
+    </main>    
+    <!-- New Section -->
+    <section id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>This is the About Us section of your website.</p>
+      </div>
+      <div><p>Hello Test Run</p></div>
+    </section>
+
+    <!-- Other sections can follow similarly -->
+
+  </body>
+</html>
+
+
