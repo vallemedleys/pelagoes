@@ -18,6 +18,8 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background: linear-gradient(to top, #3a81c8, white)fixed;
+  overflow-x: hidden;
+  
 
 }
 
@@ -219,14 +221,16 @@ main {
 }
 
 #whiteDevbox {
-  width: 800px;
+  width: 700px;
   height: 400px;
   position: absolute;
   top: 25%;
-  right: -10%;
+  right: 0%;
   background-color: white;
-  border-radius: 150px;
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
 }
+
 
 #design-cube {
   width: 45px;
