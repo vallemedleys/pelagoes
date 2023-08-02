@@ -267,12 +267,13 @@ main {
 @media (max-width: 768px) {
   #main-icon img {
     width: 40px; /* Reduce the size of the icon */
-    left: 5%; /* Adjust the position */
+    left: 2%; /* Adjust the position */
+    top: 2%;
   }
 
   #title a {
-    margin-left: 2%; /* Reduce the left margin */
-    font-size: 0.7em; /* You might want to reduce the font size */
+    margin-left: 3%;
+    font-size: 0.6em;
   }
 
   #navbar-wrapper {
@@ -280,11 +281,12 @@ main {
   }
   
   #navBar li {
-    padding: 4px; /* Reduce padding between navbar items */
+    padding: 3px; /* Reduce padding between navbar items */
   }
   
   #navBar li a {
     font-size: 0.8em; /* Reduce font size of navbar links */
+    letter-spacing: 0.001;
   }
 
   #whiteDevbox {
