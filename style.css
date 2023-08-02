@@ -147,7 +147,7 @@ main {
   position: absolute;
   padding: 10px;
   top: 30%;
-  left: 6%;
+  left: 6.5%;
   writing-mode: horizontal-lr; /* Set the writing mode to display the text vertically from left to right */
   text-orientation: upright; /* Set the text orientation to be upright */
   white-space: nowrap; 
@@ -161,14 +161,12 @@ main {
 
 /* Welcome section styles */
 #welcome-section {
-  background-color: transparent;
-  font-family: "Optima", Optima;
-  padding: 10px 30px;
-  width: 400px; /* Adjust the width as needed */
-  position: absolute; /* Change to 'relative', 'absolute', or 'fixed' as needed */
-  top: 48%; /* Adjust the vertical position */
-  left: 23.5%; /* Adjust the horizontal position */
-  transform: translate(-50%, -50%); /* Center the section */
+  max-width: 400px; /* Max width but can shrink */
+  width: 80%; /* Will take up to 80% of the screen width */
+  position: absolute;
+  top: 48%;
+  left: 24%; /* Center horizontally */
+  transform: translate(-50%, -50%);
   border-radius: 15px;
 }
 
