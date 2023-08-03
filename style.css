@@ -447,7 +447,7 @@ main {
   #navbar-wrapper {
     padding-right: 5%;
   }
-  #whiteline1 {
+  /*#whiteline1 {
     width: 40%;
     height: 2px;
     margin-left: 0.9%;
@@ -455,32 +455,40 @@ main {
     z-index: 1;
     top: 65%;
     position: absolute;
-  }
+  } */
 
   #container-one h2 {
-    font-size: 2em;
+    font-size: 1.2em;
     color: #333;
     font-family: "Optima", Optima;
+    position: absolute;
+    top: 5%;
+    margin-left: -5%;
+    width: 100%;
     
   }
   
   #container-one p {
-    font-size: 1.2em;
-    color: #666;
+    font-size: 1em;
+    position: absolute;
+    top: 10%;
+    color: #353232;
     font-family: "Optima", Optima;
+    margin-left: -5%;
+    width: 70%;
   }
 
   #lottie-animation-two {
-    width: 28%; /* Adjust as needed */
+    width: 36%; /* Adjust as needed */
     height: 50%; /* Adjust as needed */
     position: absolute;
     top: -33%;
-    margin-left: -5%;
+    left: 11%;
     cursor: pointer;
   }
 
   #whiteDevbox-2 {
-    width: 40%;
+    width: 70%;
     height: 20%;
     top: -18%;
     left: 0; /* Aligns to the right edge */
