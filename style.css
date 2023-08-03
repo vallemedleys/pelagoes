@@ -59,7 +59,7 @@ h1 {
 }
 
 #main-icon:hover img{
-  animation: sway 2s infinite ease-in-out;
+  animation: sway 1.5s infinite ease-in-out;
   z-index: 100;
 }
 
@@ -68,7 +68,7 @@ h1 {
     transform: rotate(0deg);
   }
   50% {
-    transform: rotate(6deg);
+    transform: rotate(10deg);
   }
 }
 
@@ -290,6 +290,17 @@ main {
   z-index: 100;
 }
 
+#whiteline1 {
+  width: 20%;
+  height: 3px;
+  margin-left: 8.5%;
+  background-color: white;
+  z-index: 1;
+  top: 95%;
+  position: absolute;
+}
+
+
 /* About Page Section */
 
 #about {
@@ -302,14 +313,21 @@ main {
 }
 
 
-#about h2 {
+/* Overview Section */
+
+
+
+#container-one h2 {
   font-size: 2em;
   color: #333;
+  font-family: "Optima", Optima;
+  
 }
 
-#about p {
+#container-one p {
   font-size: 1.2em;
   color: #666;
+  font-family: "Optima", Optima;
 }
 
 /* Add this at the end of your existing CSS to modify styles for screens smaller than 768 pixels wide, typical for smartphones */
