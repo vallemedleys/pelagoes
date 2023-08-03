@@ -10,7 +10,6 @@ function toggleMenu() {
     }
   }
   
-  // If you still want to add the event listener, you can do so like this:
-  document.querySelector('.hamburger-menu').addEventListener('click', toggleMenu);
+
   
   
