@@ -358,7 +358,7 @@ main {
 }
 
 /* Add this at the end of your existing CSS to modify styles for screens smaller than 768 pixels wide, typical for smartphones */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   #main-icon img {
     width: 40px; /* Reduce the size of the icon */
     left: 2%; /* Adjust the position */
@@ -406,15 +406,14 @@ main {
   #welcome-sectionheader {
     left: 50%;
     width: 20%;
-    height: 10%;
-    font-size: 50%;
+    height: 8%;
+    font-size: 55%;
     font-weight: bolder;
     top: 20%;
     left: 0%;
   }
 
   #welcome-section {
-    left: 50%;
     width: 48%;
     height: 10%;
     font-size: 60%;
@@ -432,7 +431,7 @@ main {
     width: 38%;
     height: 4.5%;
     font-size: 90%;
-    top: 40%;
+    top: 43%;
     left: 3.5%;
     text-align: center;
     display: inline-block;
@@ -447,50 +446,51 @@ main {
   #navbar-wrapper {
     padding-right: 5%;
   }
-  /*#whiteline1 {
+  #whiteline1 {
     width: 40%;
     height: 2px;
     margin-left: 0.9%;
-    background-color: white;
+    background-color: transparent;
     z-index: 1;
     top: 65%;
     position: absolute;
-  } */
+  } 
 
   #container-one h2 {
-    font-size: 1.2em;
-    color: #333;
+    font-size: 1em;
+    color: #000000;
+    font-weight: bold;
     font-family: "Optima", Optima;
     position: absolute;
-    top: 5%;
-    margin-left: 0%;
+    top: -4%;
+    margin-left: -3%;
     width: 100%;
     
   }
   
   #container-one p {
-    font-size: 1em;
+    font-size: 0.9em;
     position: absolute;
-    top: 10%;
-    color: #353232;
+    top: 0%;
+    color: #2a2828;
     font-family: "Optima", Optima;
-    margin-left: 0%;
+    margin-left: -4%;
     width: 70%;
   }
 
   #lottie-animation-two {
     width: 36%; /* Adjust as needed */
-    height: 50%; /* Adjust as needed */
+    height: 45%; /* Adjust as needed */
     position: absolute;
-    top: -33%;
+    top: -35%;
     left: 15%;
     cursor: pointer;
   }
 
   #whiteDevbox-2 {
     width: 100%;
-    height: 20%;
-    top: -18%;
+    height: 18%;
+    top: -22%;
     left: 0; /* Aligns to the right edge */
   }
 }
