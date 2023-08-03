@@ -96,7 +96,7 @@ h1 {
   position: absolute;
   top: 0;
   right: 0;
-  width: 200px; /* You can adjust this */
+  width: 150px; /* You can adjust this */
   background-color: #fff;
   z-index: 100;
 }
@@ -337,7 +337,7 @@ main {
   #navbar-wrapper {
     display: none;
   }
-  
+
   #whiteDevbox {
     width: 50%;
     height: 30%;
