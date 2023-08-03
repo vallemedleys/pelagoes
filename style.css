@@ -403,10 +403,10 @@ main {
   #myButton {
     left: 15%;
     width: 38%;
-    height: 5%;
+    height: 4.5%;
     font-size: 90%;
-    top: 38%;
-    left: 4%;
+    top: 40%;
+    left: 3.5%;
     text-align: center;
     display: inline-block;
     line-height: 5%;
@@ -423,7 +423,7 @@ main {
   #whiteline1 {
     width: 40%;
     height: 2px;
-    margin-left: 1.7%;
+    margin-left: 0.9%;
     background-color: white;
     z-index: 1;
     top: 65%;
