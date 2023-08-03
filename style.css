@@ -420,8 +420,15 @@ main {
   #navbar-wrapper {
     padding-right: 5%;
   }
-  
-  /* Add any other adjustments needed for mobile here */
+  #whiteline1 {
+    width: 40%;
+    height: 2px;
+    margin-left: 1.7%;
+    background-color: white;
+    z-index: 1;
+    top: 65%;
+    position: absolute;
+  }
 }
 
 
