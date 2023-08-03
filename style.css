@@ -393,7 +393,7 @@ main {
   #design-cube{
     width: 6%;
     height: 5%;
-    top: 48%;
+    top: 45%;
     right: 0; /* Aligns to the right edge */
   }
 
@@ -480,7 +480,7 @@ main {
 
   #lottie-animation-two {
     width: 36%; /* Adjust as needed */
-    height: 45%; /* Adjust as needed */
+    height: 44%; /* Adjust as needed */
     position: absolute;
     top: -35%;
     left: 15%;
