@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Pelagoes</title> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.8/lottie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.8/lottie.min.js">
+
+    </script>
     <script>
       // Smooth scrolling when clicking on navigation links
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -18,6 +20,17 @@
         });
       });
     </script>
+    <script>
+      function toggleMenu() {
+        var mobileNav = document.getElementById('mobile-nav');
+        if (mobileNav.style.display === 'none' || mobileNav.style.display === '') {
+          mobileNav.style.display = 'block';
+        } else {
+          mobileNav.style.display = 'none';
+        }
+      }
+    </script>
+    
   </head>
   <body>
     <header>
