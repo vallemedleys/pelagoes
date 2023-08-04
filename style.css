@@ -303,7 +303,7 @@ main {
 
 #whiteline1 {
   width: 20%;
-  height: 3px;
+  height: 2px;
   margin-left: 8.5%;
   background-color: white;
   z-index: 1;
@@ -356,6 +356,40 @@ main {
   margin-left: 5%;
   cursor: pointer;
 }
+
+#whiteline2 {
+  width: 80%;
+  height: 2px;
+  margin-left: 3%;
+  background-color: white;
+  z-index: 1;
+  top: 56%;
+  position: absolute;
+}
+
+#solutionHeader h3{
+  font-size: 1.2em;
+  color: #ffffff;
+  font-family: "Arial", Arial;
+  font-weight: 200;
+  top: 55%;
+  margin-left: 37%;
+  position: absolute;
+  letter-spacing: 0.2em;
+  
+}
+
+#solutionHeader h4{
+  font-size: 1.5em;
+  color: #092ccb;
+  font-family: "Optima", Optima;
+  top: 57%;
+  margin-left: 20%;
+  position: absolute;
+  letter-spacing: 0.2em;
+  
+}
+
 
 /* Add this at the end of your existing CSS to modify styles for screens smaller than 768 pixels wide, typical for smartphones */
 @media (max-width: 500px) {
