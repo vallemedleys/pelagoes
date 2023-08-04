@@ -371,9 +371,9 @@ main {
   font-size: 1.2em;
   color: #ffffff;
   font-family: "Arial", Arial;
-  font-weight: 200;
+  font-weight: 500;
   top: 55%;
-  margin-left: 37%;
+  margin-left: 38%;
   position: absolute;
   letter-spacing: 0.2em;
   
@@ -389,6 +389,29 @@ main {
   letter-spacing: 0.2em;
   
 }
+
+/* solution box */
+
+.container-solution {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%; /* You can adjust this as needed */
+  height: 28%;
+  top: 70%;
+  position: absolute;
+  left: 10%; /* Centers the container by pushing it 10% from the left */
+}
+
+.box {
+  width: calc(33.333% - 100px); /* Ensures three equal-width columns, minus the desired spacing */
+  height: 200px;
+  background-color: #ffffff;
+  margin: 10px; /* Margin around each box */
+  margin-top: 10px;
+  border-radius: 15px;
+  border-color: transparent;
+}
+
 
 
 /* Add this at the end of your existing CSS to modify styles for screens smaller than 768 pixels wide, typical for smartphones */
