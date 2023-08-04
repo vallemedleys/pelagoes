@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif; /* Change to your preferred font family */
+    background-color: #f4f4f4; /* Background color similar to your original page */
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #3a81c8; /* Similar color to your gradient */
+    color: white;
+  }
+  
+  form {
+    max-width: 400px;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #3a81c8; /* Button color similar to your gradient */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #306a9c; /* Slightly darker color on hover */
+  }
+  
