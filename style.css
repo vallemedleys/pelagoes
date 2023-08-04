@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif, Optima;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif, Optima, Monteserrat;
   line-height: 1.5;
   font-weight: 400;
 
@@ -371,9 +371,9 @@ main {
   font-size: 1.2em;
   color: #ffffff;
   font-family: "Arial", Arial;
-  font-weight: 500;
+  font-weight: 600;
   top: 55%;
-  margin-left: 38%;
+  margin-left: 39%;
   position: absolute;
   letter-spacing: 0.2em;
   
@@ -382,9 +382,9 @@ main {
 #solutionHeader h4{
   font-size: 1.5em;
   color: #092ccb;
-  font-family: "Optima", Optima;
+  font-family: "Optima", Arial, Helvetica, sans-serif;
   top: 57%;
-  margin-left: 20%;
+  margin-left: 24%;
   position: absolute;
   letter-spacing: 0.2em;
   
@@ -397,7 +397,7 @@ main {
   flex-wrap: wrap;
   width: 90%; /* You can adjust this as needed */
   height: 28%;
-  top: 70%;
+  top: 68%;
   position: absolute;
   left: 10%; /* Centers the container by pushing it 10% from the left */
 }
@@ -410,7 +410,42 @@ main {
   margin-top: 10px;
   border-radius: 15px;
   border-color: transparent;
+  transition: box-shadow 0.3s ease;
 }
+
+.box:hover {
+  box-shadow: 0 0 12px rgba(18, 42, 227, 0.889); /* Adjust to your liking */
+}
+
+.box h1 {
+  text-align: center;
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box p {
+  text-align: center;
+  width: 80%; /* Adjust to your liking */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#copyright-section {
+  position: absolute; /* Positions the copyright notice at the bottom of the closest positioned ancestor */
+  bottom: 0; /* Aligns the copyright notice with the bottom of the page */
+  width: 100%; /* Makes the copyright notice span the full width of the page */
+  bottom: -15%;
+  margin-left: 0%;
+  color: white;
+}
+
+#containerthree h6{
+  width: 40%;
+  top: -20%
+}
+
 
 
 
