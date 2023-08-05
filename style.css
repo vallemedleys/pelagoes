@@ -369,7 +369,7 @@ main {
 
 #solutionHeader h3{
   font-size: 1.2em;
-  color: #ffffff;
+  color: #e7eaf0;
   font-family: "Arial", Arial;
   font-weight: 600;
   top: 55%;
@@ -381,7 +381,7 @@ main {
 
 #solutionHeader h4{
   font-size: 1.5em;
-  color: #092ccb;
+  color: #092dcbda;
   font-family: "Optima", Arial, Helvetica, sans-serif;
   top: 57%;
   margin-left: 24%;
@@ -405,16 +405,18 @@ main {
 .box {
   width: calc(33.333% - 100px); /* Ensures three equal-width columns, minus the desired spacing */
   height: 200px;
-  background-color: #ffffff;
+  background-color: #d8e9fe;
   margin: 10px; /* Margin around each box */
   margin-top: 10px;
   border-radius: 15px;
-  border-color: transparent;
+  border: 1px solid white;
   transition: box-shadow 0.3s ease;
 }
 
 .box:hover {
-  box-shadow: 0 0 12px rgba(18, 42, 227, 0.889); /* Adjust to your liking */
+  box-shadow: 0px 0px 20px rgb(16, 67, 185); 
+  background-color: #ffffff;
+
 }
 
 .box h1 {
@@ -431,6 +433,17 @@ main {
   margin-right: auto;
 }
 
+.box-content {
+  padding-left: 50px; /* Adjust this to create space for the image */
+}
+
+.box-icon {
+  width: 45px; /* Adjust to your desired size */
+  height: 45px; /* Adjust to your desired size */
+  position: absolute;
+  top: 11%; /* Adjust to position the image within the box */
+  left: 3%; /* Adjust to position the image within the box */
+}
 
 #copyright-section {
   position: absolute; /* Positions the copyright notice at the bottom of the closest positioned ancestor */
