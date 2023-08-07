@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="servicepagecss.css">
+    <title>Pelagoes</title> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.8/lottie.min.js">
+
+    </script>
+    <script>
+      // Smooth scrolling when clicking on navigation links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    </script>
+    <script>
+      function toggleMenu() {
+        var mobileNav = document.getElementById('mobile-nav');
+        if (mobileNav.style.display === 'none' || mobileNav.style.display === '') {
+          mobileNav.style.display = 'block';
+        } else {
+          mobileNav.style.display = 'none';
+        }
+      }
+    </script>
+    
+  </head>
+  <body>
+    <header>
+      <div id="main-icon">
+        <a href="https://www.linkedin.com/in/cameron-m-collins/">
+          <img src="paperboat 1.svg" alt="paper boat">
+        </a>
+      </div>
+      <div id="title"> 
+        <a href="#home"><h1>Pelagoes</h1></a>
+      </div>
+      <button class="hamburger-menu" onclick="toggleMenu()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <div id="mobile-nav">
+        <ul id="navBar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <!-- Add more list items here -->
+        </ul>
+      </div>
+      
+      
+      <div id="navbar-wrapper">
+        <nav>
+          <ul id="navBar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="servicepage.html">Services</a></li>
+            <li><a href="contactpage.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+
+    </main>
+    <!-- New Section -->
+   
+
+  </body>
+</html>
+
+

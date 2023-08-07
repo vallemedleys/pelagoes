@@ -1,0 +1,196 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif, Optima, Monteserrat;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    background-color: transparent;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    background: linear-gradient(to top, #3a81c8, white)fixed;
+    overflow-x: hidden;
+    
+  
+  }
+  
+  
+  
+  h1 {
+    font-family: "Optima", Optima;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-top: 1px;
+    color: #000000;
+    font-weight: 200;
+    text-decoration: none; /* This is not necessary, as the underline is on the anchor tag */
+    will-change: color;
+    transition: color 200ms;
+  }
+  
+  #title a {
+    text-decoration: none; /* Remove underline */
+    will-change: color;
+    display: block;
+    font-size: 0.8em;
+    transition: color 300ms;
+    z-index: 1000;
+    margin-left: 5%;
+    letter-spacing: 0.4em;
+  
+  }
+  
+  #main-icon img{
+    width: 60px; /* Adjust as needed */
+    margin-right: 15px; /* Adjust as needed */
+    position: fixed;
+    top: 1%;
+    left: 9%;
+    z-index: 100;
+  }
+  
+  #main-icon:hover img{
+    animation: sway 1.5s infinite ease-in-out;
+    z-index: 100;
+  }
+  
+  @keyframes sway {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+  }
+  
+  .hamburger-menu {
+    display: none;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 101;
+  }
+  
+  .hamburger-menu .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 4px 0;
+    background-color: #333;
+  }
+  
+  #mobile-nav {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px; /* You can adjust this */
+    background-color: #fff;
+    z-index: 100;
+  }
+  
+  #mobile-nav #navBar {
+    padding: 10px;
+    list-style-type: none;
+  }
+  
+  #mobile-nav #navBar li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Styles for screens smaller than 768px wide */
+  @media (max-width: 768px) {
+    .hamburger-menu {
+      display: block;
+    }
+  }
+  
+   
+  header {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 5.6%;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  
+  #navbar-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    padding-right: 10%;
+  }
+  
+  #navBar {
+    font-family: "Optima", Optima; /* Set the desired font here */
+    display: inline-block; /* Makes sure the ul itself aligns right */
+  }
+  
+  #navBar li {
+    display: inline-block;
+    padding: 8px;
+  }
+  
+  #navBar li a {
+    color: rgb(129, 134, 149); /* Set the desired color here */
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    line-height: 1.8;
+    position: relative;
+  }
+  
+  #navBar li a:hover {
+    color:rgb(56, 131, 245);
+    /* text-shadow: 0 0 2em #0c36f0e0; */
+  }
+  
+  #navBar li a::after {
+    content: ""; /* Create a pseudo-element */
+    position: absolute; /* Position the pseudo-element relative to the anchor tag */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Extend the underline across the full width of the anchor tag */
+    height: 2px; /* Adjust the height of the underline as desired */
+    background-color: rgb(56, 131, 245); /* Set the color of the underline */
+    transform: scaleX(0); /* Initially set the underline width to zero */
+    transform-origin: left; /* Set the transform origin to the left edge */
+    transition: transform 1s ease-in-out; /* Add a transition for smooth animation */
+  }
+  /* defines what happens you hover over a link */
+  
+  #navBar li a:hover::after {
+    transform: scaleX(1); /* Expand the underline to full width on hover */
+  }
+  
+  
+  /* Main Page Info */
+  
+  main {
+    padding: 20px;
+    display: relative;
+  }
+  
