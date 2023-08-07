@@ -194,7 +194,7 @@
   }
   
   #decorative-circle {
-    background-color: rgba(255, 255, 255, 0.246);
+    background-color: rgba(154, 200, 226, 0.268);
     width: 150%;
     height: 150%;
     position: absolute;
@@ -235,7 +235,7 @@
     font-family: "Optima", Optima;
     font-size: 1em;
     position: absolute;
-    top: 60%;
+    top: 57%;
     letter-spacing: 0em;
     font-weight: 200;
     left: 6.7%;
@@ -250,4 +250,33 @@
     background-color: #fff;
     border-radius: 100% 200% 100% 500%;
 
+  }
+
+
+  #buttonWrapper {
+    text-align: center;
+  }
+  
+  #myButton {
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255); 
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 100px;
+    padding: 0; /* Removed padding */
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 200px;
+    height: 45px;
+    line-height: 45px; /* Match line-height to button height */
+  }
+  
+  
+  #myButton:hover {
+    background-color: #4974e0; /* Darker green on hover */
+    border: 2px solid #4974e0; 
   }
