@@ -24,7 +24,6 @@
   }
   
   
-  
   h1 {
     font-family: "Optima", Optima;
     text-decoration: none;
@@ -194,3 +193,50 @@
     display: relative;
   }
   
+  #decorative-circle {
+    background-color: rgba(179, 203, 237, 0.379);
+    width: 150%;
+    height: 150%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0 0 20% 85%;
+  }
+  
+
+
+/*Header: "ATLASSAIN SOLUTION PARTNER" */
+
+  #service-header h1{
+    font-family: "Optima", Optima;
+    font-size: 1.3em;
+    position: absolute;
+    top: 30%;
+    letter-spacing: 0.2em;
+    font-weight: lighter;
+    margin-left: 5.4%;
+    color: blue;
+  }
+  
+  #service-header p1{
+    font-family: "Optima", Optima;
+    font-size: 3em;
+    position: absolute;
+    top: 35%;
+    letter-spacing: 0em;
+    font-weight: bold;
+    left: 6.5%;
+    width: 38%;
+    color: rgb(46, 46, 48);
+  }
+
+  #service-header p2{
+    font-family: "Optima", Optima;
+    font-size: 1em;
+    position: absolute;
+    top: 58%;
+    letter-spacing: 0em;
+    font-weight: 200;
+    left: 6.7%;
+  }
