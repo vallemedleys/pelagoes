@@ -5,14 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="contactpage.css">
   <title>Contact Us - Pelagoes</title>
+  <script>
+    function toggleMenu() {
+      var mobileNav = document.getElementById('mobile-nav');
+      if (mobileNav.style.display === 'none' || mobileNav.style.display === '') {
+        mobileNav.style.display = 'block';
+      } else {
+        mobileNav.style.display = 'none';
+      }
+    }
+  </script>
+
 </head>
 <body>
-  <h1>Contact Us</h1>
-  <form action="/valentinele13@gmail.com" method="post">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-    <button type="submit">Submit</button>
-  </form>
-  <!-- Add other content and structure as needed -->
+  <header>
+    <div id="main-icon">
+      <a href="https://www.linkedin.com/in/cameron-m-collins/">
+        <img src="paperboat 1.svg" alt="paper boat">
+      </a>
+    </div>
+    <div id="title"> 
+      <a href=""><h1>Pelagoes</h1></a>
+    </div>
+    <button class="hamburger-menu" onclick="toggleMenu()">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <div id="mobile-nav">
+      <ul id="navBar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="servicepage.html">Solutions</a></li>
+        <li><a href="resourcepage.html">Resources</a></li>
+        <li><a href="contactpage.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div id="navbar-wrapper">
+      <nav>
+        <ul id="navBar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="servicepage.html">Solutions</a></li>
+          <li><a href="resourcepage.html">Resources</a></li>
+          <li><a href="contactpage.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>Contact Us</h1>
+    <form action="/send-email" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </main>
 </body>
 </html>
+
