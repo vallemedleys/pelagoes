@@ -82,13 +82,7 @@
     z-index: 101;
   }
   
-  @media (max-width: 520px) {
-    .hamburger-menu {
-      display: block; /* Show on small screens */
-    }
-  
-    /* Your existing media query styles */
-  }
+
   
   .hamburger-menu .bar {
     display: block;
@@ -255,13 +249,6 @@
 
   }
 
-  /*
-  #picture-one img{
-    width: 80%
-
-  }
-
-  */
 
 
   #buttonWrapper {
@@ -317,10 +304,11 @@
     #navbar-wrapper {
       display: none;
     }
-  
 
-
-
+    .hamburger-menu {
+      display: block; /* Show on small screens */
+    }
+    
   
     #buttonWrapper {
       text-align: center;
@@ -328,18 +316,17 @@
   
   
     #myButton {
-      left: 15%;
+      left: 30%;
       width: 38%;
       height: 4.5%;
       font-size: 90%;
       top: 43%;
-      left: 3.5%;
       text-align: center;
       display: inline-block;
       line-height: 5%;
   
     }
-  
+
     #myButton p{
       top: 35%;
     }
@@ -348,6 +335,80 @@
       padding-right: 5%;
     }
 
+
+     
+  #decorative-circle {
+    background-color: rgba(154, 200, 226, 0.268);
+    width: 150%;
+    height: 150%;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0 0 40% 35%;
+  }
+  
+
+/*Header: "ATLASSAIN SOLUTION PARTNER" */
+
+  #service-header h1{
+    font-family: "Optima", Optima;
+    font-size: 1em;
+    position: absolute;
+    top: 15%;
+    letter-spacing: 0.2em;
+    font-weight: lighter;
+    display: center;
+    color: blue;
+  }
+
+  #service-header p1 {
+    font-family: "Optima", Optima;
+    font-size: 1.7em;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 0em;
+    font-weight: 780;
+    width: 100%;
+    text-align: center;
+    color: rgb(46, 46, 48);
+  }
+  
+
+  #service-header p2{
+    font-family: "Optima", Optima;
+    font-size: 1em;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 0em;
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  #picture-one {
+    width: 60%; 
+    height: 35%; 
+    position: absolute;
+    top: 50%;
+    margin-left: -2%;
+    background-color: #fff;
+    border-radius: 60% 60% 5% 60%;
+
+  }
+
+  #picture-one img{
+    width: 380px; 
+    height: 400px; 
+    position: absolute;
+    margin-left: 0%;
+ 
+  }
 
     
     #copyright-section {
