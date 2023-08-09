@@ -1,23 +1,28 @@
-require('dotenv').config();
-const express = require('express');
-const nodemailer = require('nodemailer');
+import dotenv from 'dotenv';
+import express from 'express';
+import nodemailer from 'nodemailer';
+
+dotenv.config();
 const app = express();
-const port = 3000;
+const port = 5174;
 
 app.use(express.urlencoded({ extended: false }));
 
 app.post('/send-email', (req, res) => {
-  const transporter = nodemailer.createTransport({
+  console.log("Received a request to /send-email")
+const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: '',
-      pass: '',
+        user: process.env.GMAIL_USER,
+        pass: process.env.GMAIL_PASS,
     },
-  });
+});
+      
+
 
   const mailOptions = {
     from: req.body.email,
-    to: 'your-email@example.com',
+    to: 'testrunemail1234@example.com',
     subject: 'New message from ' + req.body.name,
     text: req.body.message,
   };
