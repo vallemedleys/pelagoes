@@ -312,18 +312,20 @@
   
     #buttonWrapper {
       text-align: center;
+
     }
   
   
     #myButton {
-      left: 30%;
-      width: 38%;
+      left: 28%;
+      width: 40%;
       height: 4.5%;
       font-size: 90%;
       top: 43%;
       text-align: center;
       display: inline-block;
       line-height: 5%;
+
   
     }
 
@@ -397,7 +399,7 @@
     position: absolute;
     top: 52%;
     margin-left: -5%;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 0% 0% 10% 10%;
 
   }
