@@ -71,6 +71,9 @@
     }
   }
   
+  
+
+  
   .hamburger-menu {
     display: none;
     cursor: pointer;
@@ -81,6 +84,16 @@
     right: 20px;
     z-index: 101;
   }
+  
+  @media (max-width: 520px) {
+    .hamburger-menu {
+      display: block; /* Show on small screens */
+    }
+      #navbar-wrapper {
+      display: none; /* This will hide the main navbar */
+    }
+  }
+  
   
   .hamburger-menu .bar {
     display: block;
@@ -113,12 +126,7 @@
     text-align: left;
   }
   
-  /* Styles for screens smaller than 768px wide */
-  @media (max-width: 768px) {
-    .hamburger-menu {
-      display: block;
-    }
-  }
+
   
    
   header {
@@ -184,6 +192,7 @@
   #navBar li a:hover::after {
     transform: scaleX(1); /* Expand the underline to full width on hover */
   }
+  
   
   
   /* Main Page Info */
@@ -283,4 +292,3 @@
     border: 2px solid #4974e0; 
   }
 
-  

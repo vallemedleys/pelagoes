@@ -82,6 +82,14 @@
     z-index: 101;
   }
   
+  @media (max-width: 520px) {
+    .hamburger-menu {
+      display: block; /* Show on small screens */
+    }
+  
+    /* Your existing media query styles */
+  }
+  
   .hamburger-menu .bar {
     display: block;
     width: 25px;
@@ -113,12 +121,7 @@
     text-align: left;
   }
   
-  /* Styles for screens smaller than 768px wide */
-  @media (max-width: 768px) {
-    .hamburger-menu {
-      display: block;
-    }
-  }
+
   
    
   header {
@@ -252,6 +255,14 @@
 
   }
 
+  /*
+  #picture-one img{
+    width: 80%
+
+  }
+
+  */
+
 
   #buttonWrapper {
     text-align: center;
@@ -280,3 +291,73 @@
     background-color: #4974e0; /* Darker green on hover */
     border: 2px solid #4974e0; 
   }
+
+
+  @media (max-width: 520px) {
+    #main-icon img {
+      width: 40px; /* Reduce the size of the icon */
+      left: 2%; /* Adjust the position */
+      top: 2%;
+    }
+  
+    body {
+      margin: 0;
+      min-width: 320px;
+      min-height: 100vh;
+      background: linear-gradient(to top, #3a81c8, white)fixed;
+      overflow-x: hidden;
+    
+    }
+  
+    #title a {
+      margin-left: 3%;
+      font-size: 0.6em;
+    }
+  
+    #navbar-wrapper {
+      display: none;
+    }
+  
+
+
+
+  
+    #buttonWrapper {
+      text-align: center;
+    }
+  
+  
+    #myButton {
+      left: 15%;
+      width: 38%;
+      height: 4.5%;
+      font-size: 90%;
+      top: 43%;
+      left: 3.5%;
+      text-align: center;
+      display: inline-block;
+      line-height: 5%;
+  
+    }
+  
+    #myButton p{
+      top: 35%;
+    }
+  
+    #navbar-wrapper {
+      padding-right: 5%;
+    }
+
+
+    
+    #copyright-section {
+      position: absolute; /* Positions the copyright notice at the bottom of the closest positioned ancestor */
+      bottom: 0; /* Aligns the copyright notice with the bottom of the page */
+      width: 100%; /* Makes the copyright notice span the full width of the page */
+      bottom: -60%;
+      margin-left: 0%;
+      color: white;
+    }
+  }
+  
+  

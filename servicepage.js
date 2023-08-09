@@ -1,5 +1,5 @@
-import './resourcepage.css'
-import './resourcepage.html'
+import './servicepagecss.css'
+import './servicepage.html'
 
 function toggleMenu() {
     var mobileNav = document.getElementById('mobile-nav');
@@ -9,3 +9,4 @@ function toggleMenu() {
       mobileNav.style.display = 'block';
     }
   }
+  
