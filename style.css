@@ -726,7 +726,7 @@ main {
 
   /* Welcome section styles */
   #welcome-section {
-    max-width: 400px; /* Max width but can shrink */
+    max-width: 50%; /* Max width but can shrink */
     width: 80%; /* Will take up to 80% of the screen width */
     position: absolute;
     top: 44%;
@@ -736,7 +736,7 @@ main {
   }
 
   #welcome-section p {
-    font-size: 2em;
+    font-size: 2.5em;
     color: rgb(55, 55, 59);
     text-align: left; /* Center the text horizontally */
     position: relative;
@@ -752,7 +752,7 @@ main {
     color: white;
     position: absolute;
     top: 60%;
-    left: 24%;
+    left: 30%;
     padding: 0; /* Removed padding */
     text-align: center;
     display: inline-block;
