@@ -702,12 +702,33 @@ main {
 
 
 @media (min-width: 1300px) and (max-width: 1800px) {
-  #welcome-section {
-    max-width: 400px; /* Max width but can shrink */
-    width: 80%; /* Will take up to 80% of the screen width */
+  main {
+    padding: 20px;
+    display: relative;
+  }
+  
+  #welcome-sectionheader {
     position: absolute;
-    top: 48%;
-    left: 24%; /* Center horizontally */
+    padding: 10px;
+    top: 20%;
+    left: 5%;
+    writing-mode: horizontal-lr; /* Set the writing mode to display the text vertically from left to right */
+    text-orientation: upright; /* Set the text orientation to be upright */
+    white-space: nowrap; 
+  }
+  
+  #welcome-sectionheader h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+    
+  }
+
+  #welcome-section {
+    max-width: 500px; /* Max width but can shrink */
+    width: 100%; /* Will take up to 80% of the screen width */
+    position: absolute;
+    top: 40%;
+    left: 29%; /* Center horizontally */
     transform: translate(-50%, -50%);
     border-radius: 15px;
   }
@@ -728,15 +749,15 @@ main {
     border: 2px solid rgb(255, 255, 255); 
     color: white;
     position: absolute;
-    top: 58%;
-    left: 140px;
+    top: 54%;
+    left: 120px;
     padding: 0; /* Removed padding */
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 25px;
     cursor: pointer;
     border-radius: 50px;
-    width: 200px;
+    width: 255px;
     height: 45px;
     line-height: 45px; /* Match line-height to button height */
   }
@@ -748,22 +769,22 @@ main {
   }
   
   
-  
+
   #lottie-animation {
-    width: 380px; /* Adjust as needed */
+    width: 450px; /* Adjust as needed */
     height: 400px; /* Adjust as needed */
     position: absolute;
-    top: 25%;
+    top: 30%;
     right: 10%;
     cursor: pointer;
   }
   
   #whiteDevbox {
-    width: 700px;
+    width: 800px;
     height: 400px;
     position: absolute;
-    top: 25%;
-    right: 0%;
+    top: 30%;
+    right: -11.5%;
     background-color: white;
     border-top-left-radius: 150px;
     border-bottom-left-radius: 150px;
@@ -782,10 +803,10 @@ main {
   }
   
   #design-cube {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 51px;
     position: absolute;
-    top: 65%;
+    top: 61%;
     right: 11%;
     background-color: rgb(255, 255, 255);
     border-radius: 360px;
