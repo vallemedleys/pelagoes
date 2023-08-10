@@ -701,52 +701,7 @@ main {
 }
 
 @media (min-width: 1500px) {
-  header {
-    flex-direction: row; /* Align the header items horizontally */
-    align-items: center;
-  }
-
-  #main-icon,
-  #title {
-    flex-grow: 1; /* Allow these elements to take up more space */
-  }
-
-  #mobile-nav {
-    display: none; /* Hide mobile navigation on larger screens */
-  }
-
-  #navbar-wrapper {
-    display: block; /* Display the desktop navigation */
-  }
-
-  #welcome-section,
-  #container-one {
-    max-width: 70%; /* Restrict the width for better readability */
-    margin: 0 auto;
-  }
-
-  .container-solution {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; /* Space out the boxes evenly */
-  }
-
-  .container-solution .box {
-    flex-basis: calc(33.33% - 20px); /* Have 3 boxes in a row */
-    margin: 10px; /* Add a bit of margin for spacing between the boxes */
-  }
-
-  .box h1,
-  .box p {
-    margin: 0; /* Remove any default margin to better control spacing */
-    padding: 5px; /* Add padding for better appearance */
-  }
-
-  #lottie-animation, 
-  #lottie-animation-two {
-    max-width: 70%; /* Limit the width of the animations */
-    margin: 0 auto;
-  }
+  
   /* "Jira Experts, Workflow Masters" */
   main {
     padding: 20px;
@@ -765,9 +720,111 @@ main {
   
   #welcome-sectionheader h1 {
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 2.8em;
     
   }
+
+  /* Welcome section styles */
+#welcome-section {
+  max-width: 400px; /* Max width but can shrink */
+  width: 80%; /* Will take up to 80% of the screen width */
+  position: absolute;
+  top: 44%;
+  left: 24%; /* Center horizontally */
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+}
+
+#welcome-section p {
+  font-size: 1.6em;
+  color: rgb(55, 55, 59);
+  text-align: left; /* Center the text horizontally */
+  position: relative;
+}
+
+#buttonWrapper {
+  text-align: center;
+}
+
+#myButton {
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255); 
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 160px;
+  padding: 0; /* Removed padding */
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 200px;
+  height: 45px;
+  line-height: 45px; /* Match line-height to button height */
+}
+
+
+#myButton:hover {
+  background-color: #4974e0; /* Darker green on hover */
+  border: 2px solid #4974e0; 
+}
+
+
+
+#lottie-animation {
+  width: 380px; /* Adjust as needed */
+  height: 400px; /* Adjust as needed */
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  cursor: pointer;
+}
+
+#whiteDevbox {
+  width: 700px;
+  height: 400px;
+  position: absolute;
+  top: 25%;
+  right: 0%;
+  background-color: white;
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
+}
+
+#whiteDevbox-2 {
+  width: 700px;
+  height: 400px;
+  position: absolute;
+  top: 12%;
+  left: 0%;
+  background-color: white;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  z-index: 0;
+}
+
+#design-cube {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 65%;
+  right: 11%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 360px;
+  z-index: 100;
+}
+
+#whiteline1 {
+  width: 20%;
+  height: 2px;
+  margin-left: 8.5%;
+  background-color: white;
+  z-index: 1;
+  top: 95%;
+  position: absolute;
+}
+
   
 }
 
