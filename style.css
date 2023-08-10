@@ -197,7 +197,7 @@ main {
 #welcome-sectionheader {
   position: absolute;
   padding: 10px;
-  top: 30%;
+  top: 23%;
   left: 5.5%;
   writing-mode: horizontal-lr; /* Set the writing mode to display the text vertically from left to right */
   text-orientation: upright; /* Set the text orientation to be upright */
@@ -206,7 +206,7 @@ main {
 
 #welcome-sectionheader h1 {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 2.5em;
   
 }
 
@@ -215,14 +215,14 @@ main {
   max-width: 400px; /* Max width but can shrink */
   width: 80%; /* Will take up to 80% of the screen width */
   position: absolute;
-  top: 48%;
-  left: 22.5%; /* Center horizontally */
+  top: 44%;
+  left: 24%; /* Center horizontally */
   transform: translate(-50%, -50%);
   border-radius: 15px;
 }
 
 #welcome-section p {
-  font-size: 1.5em;
+  font-size: 1.6em;
   color: rgb(55, 55, 59);
   text-align: left; /* Center the text horizontally */
   position: relative;
