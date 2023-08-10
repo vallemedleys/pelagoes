@@ -729,25 +729,25 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; /* Space out the boxes evenly */
-    }
-
-    .container-solution .box {
-      flex-basis: calc(33.33% - 20px); /* Have 3 boxes in a row */
-      margin: 10px; /* Add a bit of margin for spacing between the boxes */
-    }
-
-    .box h1,
-    .box p {
-      margin: 0; /* Remove any default margin to better control spacing */
-      padding: 5px; /* Add padding for better appearance */
-    }
-
-    #lottie-animation, 
-    #lottie-animation-two {
-      max-width: 70%; /* Limit the width of the animations */
-      margin: 0 auto;
-    }
   }
+
+  .container-solution .box {
+    flex-basis: calc(33.33% - 20px); /* Have 3 boxes in a row */
+    margin: 10px; /* Add a bit of margin for spacing between the boxes */
+  }
+
+  .box h1,
+  .box p {
+    margin: 0; /* Remove any default margin to better control spacing */
+    padding: 5px; /* Add padding for better appearance */
+  }
+
+  #lottie-animation, 
+  #lottie-animation-two {
+    max-width: 70%; /* Limit the width of the animations */
+    margin: 0 auto;
+  }
+}
 
 
 
