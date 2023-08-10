@@ -710,7 +710,7 @@ main {
   #welcome-sectionheader {
     position: absolute;
     padding: 10px;
-    top: 20%;
+    top: 27.5%;
     left: 5%;
     writing-mode: horizontal-lr; /* Set the writing mode to display the text vertically from left to right */
     text-orientation: upright; /* Set the text orientation to be upright */
@@ -727,7 +727,7 @@ main {
     max-width: 500px; /* Max width but can shrink */
     width: 100%; /* Will take up to 80% of the screen width */
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 29%; /* Center horizontally */
     transform: translate(-50%, -50%);
     border-radius: 15px;
@@ -749,16 +749,16 @@ main {
     border: 2px solid rgb(255, 255, 255); 
     color: white;
     position: absolute;
-    top: 54%;
-    left: 120px;
+    top: 58%;
+    left: 128px;
     padding: 0; /* Removed padding */
     text-align: center;
     display: inline-block;
     font-size: 25px;
     cursor: pointer;
     border-radius: 50px;
-    width: 255px;
-    height: 45px;
+    width: 280px;
+    height: 50px;
     line-height: 45px; /* Match line-height to button height */
   }
   
