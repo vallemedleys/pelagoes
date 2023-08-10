@@ -747,6 +747,28 @@ main {
     max-width: 70%; /* Limit the width of the animations */
     margin: 0 auto;
   }
+  /* "Jira Experts, Workflow Masters" */
+  main {
+    padding: 20px;
+    display: relative;
+  }
+  
+  #welcome-sectionheader {
+    position: absolute;
+    padding: 10px;
+    top: 23%;
+    left: 10%;
+    writing-mode: horizontal-lr; /* Set the writing mode to display the text vertically from left to right */
+    text-orientation: upright; /* Set the text orientation to be upright */
+    white-space: nowrap; 
+  }
+  
+  #welcome-sectionheader h1 {
+    font-weight: bold;
+    font-size: 2.5em;
+    
+  }
+  
 }
 
 
