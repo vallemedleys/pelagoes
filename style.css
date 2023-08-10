@@ -725,107 +725,105 @@ main {
   }
 
   /* Welcome section styles */
-#welcome-section {
-  max-width: 400px; /* Max width but can shrink */
-  width: 80%; /* Will take up to 80% of the screen width */
-  position: absolute;
-  top: 44%;
-  left: 24%; /* Center horizontally */
-  transform: translate(-50%, -50%);
-  border-radius: 15px;
-}
+  #welcome-section {
+    max-width: 400px; /* Max width but can shrink */
+    width: 80%; /* Will take up to 80% of the screen width */
+    position: absolute;
+    top: 44%;
+    left: 24%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+  }
 
-#welcome-section p {
-  font-size: 1.6em;
-  color: rgb(55, 55, 59);
-  text-align: left; /* Center the text horizontally */
-  position: relative;
-}
+  #welcome-section p {
+    font-size: 2em;
+    color: rgb(55, 55, 59);
+    text-align: left; /* Center the text horizontally */
+    position: relative;
+  }
 
-#buttonWrapper {
-  text-align: center;
-}
+  #buttonWrapper {
+    text-align: center;
+  }
 
-#myButton {
-  background-color: transparent;
-  border: 2px solid rgb(255, 255, 255); 
-  color: white;
-  position: absolute;
-  top: 60%;
-  left: 160px;
-  padding: 0; /* Removed padding */
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 50px;
-  width: 200px;
-  height: 45px;
-  line-height: 45px; /* Match line-height to button height */
-}
-
-
-#myButton:hover {
-  background-color: #4974e0; /* Darker green on hover */
-  border: 2px solid #4974e0; 
-}
+  #myButton {
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255); 
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 24%;
+    padding: 0; /* Removed padding */
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 200px;
+    height: 45px;
+    line-height: 45px; /* Match line-height to button height */
+  }
 
 
+  #myButton:hover {
+    background-color: #4974e0; /* Darker green on hover */
+    border: 2px solid #4974e0; 
+  }
 
-#lottie-animation {
-  width: 380px; /* Adjust as needed */
-  height: 400px; /* Adjust as needed */
-  position: absolute;
-  top: 25%;
-  right: 10%;
-  cursor: pointer;
-}
 
-#whiteDevbox {
-  width: 700px;
-  height: 400px;
-  position: absolute;
-  top: 25%;
-  right: 0%;
-  background-color: white;
-  border-top-left-radius: 150px;
-  border-bottom-left-radius: 150px;
-}
 
-#whiteDevbox-2 {
-  width: 700px;
-  height: 400px;
-  position: absolute;
-  top: 12%;
-  left: 0%;
-  background-color: white;
-  border-top-right-radius: 150px;
-  border-bottom-right-radius: 150px;
-  z-index: 0;
-}
+  #lottie-animation {
+    width: 380px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    cursor: pointer;
+  }
 
-#design-cube {
-  width: 45px;
-  height: 45px;
-  position: absolute;
-  top: 65%;
-  right: 11%;
-  background-color: rgb(255, 255, 255);
-  border-radius: 360px;
-  z-index: 100;
-}
+  #whiteDevbox {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 25%;
+    right: 0%;
+    background-color: white;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+  }
 
-#whiteline1 {
-  width: 20%;
-  height: 2px;
-  margin-left: 8.5%;
-  background-color: white;
-  z-index: 1;
-  top: 95%;
-  position: absolute;
-}
+  #whiteDevbox-2 {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 12%;
+    left: 0%;
+    background-color: white;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    z-index: 0;
+  }
 
-  
+  #design-cube {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 65%;
+    right: 11%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 360px;
+    z-index: 100;
+  }
+
+  #whiteline1 {
+    width: 20%;
+    height: 2px;
+    margin-left: 8.5%;
+    background-color: white;
+    z-index: 1;
+    top: 95%;
+    position: absolute;
+  }
 }
 
 
