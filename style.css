@@ -700,3 +700,255 @@ main {
   }
 }
 
+
+@media (min-width: 1300px) and (max-width: 1800px) {
+  #welcome-section {
+    max-width: 400px; /* Max width but can shrink */
+    width: 80%; /* Will take up to 80% of the screen width */
+    position: absolute;
+    top: 48%;
+    left: 24%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+  }
+  
+  #welcome-section p {
+    font-size: 2em;
+    color: rgb(55, 55, 59);
+    text-align: left; /* Center the text horizontally */
+    position: relative;
+  }
+  
+  #buttonWrapper {
+    text-align: center;
+  }
+  
+  #myButton {
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255); 
+    color: white;
+    position: absolute;
+    top: 58%;
+    left: 140px;
+    padding: 0; /* Removed padding */
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 200px;
+    height: 45px;
+    line-height: 45px; /* Match line-height to button height */
+  }
+  
+  
+  #myButton:hover {
+    background-color: #4974e0; /* Darker green on hover */
+    border: 2px solid #4974e0; 
+  }
+  
+  
+  
+  #lottie-animation {
+    width: 380px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    cursor: pointer;
+  }
+  
+  #whiteDevbox {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 25%;
+    right: 0%;
+    background-color: white;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+  }
+  
+  #whiteDevbox-2 {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 12%;
+    left: 0%;
+    background-color: white;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    z-index: 0;
+  }
+  
+  #design-cube {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 65%;
+    right: 11%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 360px;
+    z-index: 100;
+  }
+  
+  #whiteline1 {
+    width: 20%;
+    height: 2px;
+    margin-left: 8.5%;
+    background-color: white;
+    z-index: 1;
+    top: 95%;
+    position: absolute;
+  }
+  
+  
+  /* About Page Section */
+  
+  #about {
+    padding: 50px;
+    position: absolute;
+    top: 100%; /* Move the #about section below the header and main content */
+    left: 0;
+    width: 100%;
+    height: 1000px; /* Adjust the height as needed */
+  }
+  
+  
+  /* Overview Section */
+  
+  
+  
+  #container-one h2 {
+    font-size: 1.7em;
+    color: #333;
+    font-family: "Optima", Optima;
+    top: 15%;
+    margin-left: 48%;
+    position: absolute;
+    
+  }
+  
+  #container-one p {
+    font-size: 1.2em;
+    color: #333538;
+    font-family: "Optima", Optima;
+    position: absolute;
+    top: 25%;
+    margin-left: 48%;
+    width: 39%;
+  }
+  
+  #lottie-animation-two {
+    width: 380px; /* Adjust as needed */
+    height: 380px; /* Adjust as needed */
+    position: absolute;
+    top: 13%;
+    margin-left: 5%;
+    cursor: pointer;
+  }
+  
+  #whiteline2 {
+    width: 80%;
+    height: 2px;
+    margin-left: 3%;
+    background-color: white;
+    z-index: 1;
+    top: 56%;
+    position: absolute;
+  }
+  
+  #solutionHeader h3{
+    font-size: 1.2em;
+    color: #e7eaf0;
+    font-family: "Arial", Arial;
+    font-weight: 600;
+    top: 55%;
+    margin-left: 39%;
+    position: absolute;
+    letter-spacing: 0.2em;
+    
+  }
+  
+  #solutionHeader h4{
+    font-size: 1.5em;
+    color: #092dcbda;
+    font-family: "Optima", Arial, Helvetica, sans-serif;
+    top: 57%;
+    margin-left: 24%;
+    position: absolute;
+    letter-spacing: 0.2em;
+    
+  }
+  
+  /* solution box */
+  
+  .container-solution {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%; /* You can adjust this as needed */
+    height: 28%;
+    top: 68%;
+    position: absolute;
+    left: 10%; /* Centers the container by pushing it 10% from the left */
+  }
+  
+  .box {
+    width: calc(33.333% - 100px); /* Ensures three equal-width columns, minus the desired spacing */
+    height: 200px;
+    background-color: #d8e9fe;
+    margin: 10px; /* Margin around each box */
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 1px solid white;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .box:hover {
+    box-shadow: 0px 0px 20px rgb(16, 67, 185); 
+    background-color: #ffffff;
+  
+  }
+  
+  .box h1 {
+    text-align: center;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .box p {
+    text-align: center;
+    width: 80%; /* Adjust to your liking */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .box-content {
+    padding-left: 50px; /* Adjust this to create space for the image */
+  }
+  
+  .box-icon {
+    width: 45px; /* Adjust to your desired size */
+    height: 45px; /* Adjust to your desired size */
+    position: absolute;
+    top: 11%; /* Adjust to position the image within the box */
+    left: 3%; /* Adjust to position the image within the box */
+  }
+  
+  #copyright-section {
+    position: absolute; /* Positions the copyright notice at the bottom of the closest positioned ancestor */
+    bottom: 0; /* Aligns the copyright notice with the bottom of the page */
+    width: 100%; /* Makes the copyright notice span the full width of the page */
+    bottom: -15%;
+    margin-left: 0%;
+    color: white;
+  }
+  
+  #containerthree h6{
+    width: 40%;
+    top: -20%
+  }
+  
+  
+  
