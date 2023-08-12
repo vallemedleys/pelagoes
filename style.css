@@ -463,7 +463,7 @@ main {
 
 
 /* Add this at the end of your existing CSS to modify styles for screens smaller than 768 pixels wide, typical for smartphones */
-@media (max-width: 520px) {
+@media (max-width: 430px) {
   #main-icon img {
     width: 40px; /* Reduce the size of the icon */
     left: 2%; /* Adjust the position */
