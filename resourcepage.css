@@ -433,48 +433,48 @@
   /* Drop down filter search */
 
   #filterDropdown {
-    position: absolute;
     display: inline-block;
-    top: 40%;
-    margin-left: 30%;
+    margin-left: 20%;
+    position: absolute;
+    top: 50%;
+
   }
   
   .dropbtn {
-    background-color: #4caf50;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(8, 92, 217);
     padding: 16px;
-    font-size: 16px;
-    border: none;
+    font-size: 18px;
+    font-family: "Optima", optima;
+    border-color: #333;
+    font-weight: 500;
     cursor: pointer;
-    position: absolute; /* Use absolute positioning */
+    border-radius: 5% 5% 5% 5%;
   }
   
-  #dropdown-content {
+  #dropdownContent {
     display: none;
-    position: absolute;
-    background-color: #000000;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: center;
+    background-color: #ffffff;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(212, 0, 0, 0.907);
     z-index: 1;
-    top: 1000%;
+    top: 100%;
   }
   
- 
-  .dropdown-content a {
+  #dropdownContent a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    top: 10%;
+    font-family: "Optima", optima;
   }
-
-  .dropdown-content.show {
+  
+  #dropdownContent.show {
     display: block; /* Change to block */
-    top: 100%; /* Position it below the button */
   }
   
-  
-  .dropdown-content a:hover {
+  #dropdownContent a:hover {
     background-color: #f1f1f1;
   }
   
