@@ -31,29 +31,32 @@
       }
     </script>
     <script>
-      function toggleDropdown() {
-        var dropdownContent = document.getElementById('dropdownContent');
-        if (dropdownContent.style.display === 'none' || dropdownContent.style.display === '') {
-          dropdownContent.style.display = 'block';
+      function toggleDropdown(dropdownId) {
+        var dropdown = document.getElementById(dropdownId);
+        if (dropdown.style.display === 'none' || dropdown.style.display === '') {
+          dropdown.style.display = 'block';
         } else {
-          dropdownContent.style.display = 'none';
+         dropdown.style.display = 'none';
         }
       }
         // Close the dropdown if the user clicks outside of it
-      window.onclick = function(event) {
-        var dropdownContent = document.getElementById('dropdownContent');
-        var mobileNav = document.getElementById('mobile-nav');
+        window.onclick = function(event) {
+          var topicsDropdown = document.getElementById('topicsDropdown');
+          var typesDropdown = document.getElementById('typesDropdown');
+          var mobileNav = document.getElementById('mobile-nav');
 
-        // Check if clicked outside of dropdown
-        if (!event.target.matches('.dropbtn') && !dropdownContent.contains(event.target)) {
-          dropdownContent.style.display = 'none';
-        }
-
-        // Check if clicked outside of mobile-nav
-        if (!mobileNav.contains(event.target) && !event.target.matches('.hamburger-menu')) {
-          mobileNav.style.display = 'none';
-        }
-      };
+          // Check if clicked outside of dropdown
+          if ((!event.target.matches('.dropbtn') && !event.target.matches('.dropbtn-two')) && !topicsDropdown.contains(event.target)) {
+            topicsDropdown.style.display = 'none';
+          }
+          if ((!event.target.matches('.dropbtn') && !event.target.matches('.dropbtn-two')) && !typesDropdown.contains(event.target)) {
+            typesDropdown.style.display = 'none';
+          }
+          // Check if clicked outside of mobile-nav
+          if (!mobileNav.contains(event.target) && !event.target.matches('.hamburger-menu')) {
+            mobileNav.style.display = 'none';
+          }
+        };
     </script>
     
   </head>
@@ -114,22 +117,29 @@
 
     </main>
     <!-- New Section -->
-    <div id="filterDropdown">
-      <button onclick="toggleDropdown()" class="dropbtn">Filter Documents</button>
-      <div id="dropdownContent" class="dropdown-content">
-        <a href="#" onclick="filterDocuments('Atlassain')">Atlassain</a>
-        <a href="#" onclick="filterDocuments('pdf')">PDF</a>
-        <a href="#" onclick="filterDocuments('word')">Word</a>
-        <a href="#" onclick="filterDocuments('excel')">Excel</a>
-        <!-- Add more filters as needed -->
+
+    <section id="new-section">
+      <div id="filterDropdown">
+        <button onclick="toggleDropdown('topicsDropdown')" class="dropbtn">All Topics</button>
+        <div id="topicsDropdown" class="dropdown-content">
+          <a href="#" onclick="filterDocuments('Atlassain')">Atlassain</a>
+          <a href="#" onclick="filterDocuments('pdf')">PDF</a>
+          <a href="#" onclick="filterDocuments('word')">Word</a>
+          <a href="#" onclick="filterDocuments('excel')">Excel</a>
+        </div>
+      <div id="typeDropdownbtn">
+        <button onclick="toggleDropdown('typesDropdown')" class="dropbtn-two">All Types</button>
+        <div id="typesDropdown" class="dropdown-content">
+          <a href="#" onclick="filterDocuments('Atlassain')">Atlas</a>
+          <a href="#" onclick="filterDocuments('pdf')">PDF</a>
+          <a href="#" onclick="filterDocuments('word')">Word</a>
+          <a href="#" onclick="filterDocuments('excel')">Excel</a>
+        </div>
       </div>
-    </div>
-    
-    <div id="documents">
-      <!-- List your documents here -->
-    </div>
-
-   
-
+      
+      <div id="documents">
+      
+      </div>
+    </section>
   </body>
 </html>
