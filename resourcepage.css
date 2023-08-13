@@ -201,7 +201,7 @@
     top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 0 0 40% 35%;
+    border-radius: 0 0 40% 40%;
   }
   
 
@@ -259,6 +259,7 @@
     text-align: center;
   }
   
+  /*
   #myButton {
     background-color: transparent;
     border: 2px solid rgb(255, 255, 255); 
@@ -267,7 +268,7 @@
     top: 65%;
     left: 100px;
     padding: 0; /* Removed padding */
-    text-align: center;
+   /*  text-align: center;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
@@ -275,12 +276,12 @@
     width: 200px;
     height: 45px;
     line-height: 45px; /* Match line-height to button height */
-  }
   
-  #myButton:hover {
+
+/*  #myButton:hover {
     background-color: #4974e0; /* Darker green on hover */
-    border: 2px solid #4974e0; 
-  }
+    /* border: 2px solid #4974e0; */
+  
 
 
 
@@ -319,7 +320,7 @@
     }
   
   
-    #myButton {
+   /* #myButton {
       left: 28%;
       width: 40%;
       height: 4.5%;
@@ -334,7 +335,7 @@
 
     #myButton p{
       top: 35%;
-    }
+    } */
   
     #navbar-wrapper {
       padding-right: 5%;
@@ -432,29 +433,29 @@
 
   /* Drop down filter search */
 
-  #new-section {
-    position: relative;
-    min-height: 700px;
-    margin-top: 700px; /* Adjust as needed */
-  }
+#new-section {
+  position: relative;
+  min-height: 700px;
+  margin-top: 700px; /* Adjust as needed */
+}
 
 #filterDropdown,
 #typeDropdownbtn {
-  display: inline-block; /* or you can use flex */
-  margin-right: 10px; /* or any desired spacing */
+  display: inline-block; 
 }
 
   
-  #filterDropdown {
-    display: inline-block;
-    margin-left: 10%;
-    position: absolute;
-    top: 0%;
-  }
+#filterDropdown {
+  display: inline-block;
+  margin-left: 6.5%;
+  position: absolute;
+  top: 0%;
+
+}
 
   #typeDropdownbtn {
     display: inline-block;
-    margin-left: 10%;
+    margin-left: 40%;
     position: absolute;
     top: 0%;
   }
@@ -465,8 +466,8 @@
     padding: 16px;
     font-size: 18px;
     font-family: "Optima", optima;
-    border: 2px solid #3333335a; /* Define the border thickness and style */
-    font-weight: 500;
+    border: 1px solid #34353b2a; /* Define the border thickness and style */
+    font-weight: 400;
     cursor: pointer;
     border-radius: 30px;
     display: inline-block;
@@ -482,7 +483,7 @@
     padding: 16px;
     font-size: 18px;
     font-family: "Optima", optima;
-    border: 2px solid #3333335a; /* Define the border thickness and style */
+    border: 1px solid #34353b2a; /* Define the border thickness and style */
     font-weight: 500;
     cursor: pointer;
     border-radius: 30px;
@@ -497,7 +498,7 @@
     display: none;
     position: absolute; /* Changed from 'center' to 'absolute' */
     background-color: #ffffff;
-    min-width: 100px;
+    min-width: 200px;
     box-shadow: 0px 0px 5px 5px rgba(217, 219, 226, 0.158);
     z-index: 1;
     top: 100%;
