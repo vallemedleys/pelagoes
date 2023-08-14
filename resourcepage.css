@@ -442,7 +442,6 @@
 #filterDropdown,
 #typeDropdownbtn {
   display: inline-block;
-  z-index: 99;
 }
 
   
@@ -454,92 +453,97 @@
 
 }
 
-  #typeDropdownbtn {
-    display: inline-block;
-    margin-left: 100%;
-    position: absolute;
-    top: 0%;
-  }
+#typeDropdownbtn {
+  display: inline-block;
+  margin-left: 200%;
+  position: absolute;
+  top: 0%;
+}
   
-  .dropbtn {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 16px;
-    font-size: 18px;
-    font-family: "Optima", optima;
-    border: 1px solid #34353b2a; /* Define the border thickness and style */
-    font-weight: 400;
-    cursor: pointer;
-    border-radius: 30px;
-    display: inline-block;
-    line-height: 10%;
-    width: 200px;
-    text-align: left;
-    height: 30px;
-    display: flex;
-    align-items: center; /* Centers items vertically within the button */
-    justify-content: space-between; /* Aligns items horizontally with space between */
-  }
+.dropbtn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 18px;
+  font-family: "Optima", optima;
+  border: 1px solid #34353b2a; /* Define the border thickness and style */
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 30px;
+  display: inline-block;
+  line-height: 10%;
+  width: 200px;
+  text-align: left;
+  height: 30px;
+  display: flex;
+  align-items: center; /* Centers items vertically within the button */
+  justify-content: space-between; /* Aligns items horizontally with space between */
+}
 
-  .dropbtn-two {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 16px;
-    font-size: 18px;
-    font-family: "Optima", optima;
-    border: 1px solid #34353b2a; /* Define the border thickness and style */
-    font-weight: 500;
-    cursor: pointer;
-    border-radius: 30px;
-    display: inline-block;
-    line-height: 10%;
-    width: 200px;
-    text-align: left;
-    height: 30px;
-    display: flex;
-    align-items: center; /* Centers items vertically within the button */
-    justify-content: space-between;
-  }
+.dropbtn-two {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 18px;
+  font-family: "Optima", optima;
+  border: 1px solid #34353b2a; /* Define the border thickness and style */
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 30px;
+  display: inline-block;
+  line-height: 10%;
+  width: 200px;
+  text-align: left;
+  height: 30px;
+  display: flex;
+  align-items: center; /* Centers items vertically within the button */
+  justify-content: space-between;
+}
 
-  .dropbtn img {
-    width: 20px; /* Set the width as you need */
-    height: 20px; /* Set the height as you need */
-    margin-left: 5px; /* Optional, to add some space between the image and the text */
-  }
+.dropbtn img {
+  width: 20px; /* Set the width as you need */
+  height: 20px; /* Set the height as you need */
+  margin-left: 5px; /* Optional, to add some space between the image and the text */
+  cursor: pointer;
+}
 
-  .dropbtn-two img {
-    width: 20px; /* Set the width as you need */
-    height: 20px; /* Set the height as you need */
-    margin-left: 5px; /* Optional, to add some space between the image and the text */
-  }
+.dropbtn-two img {
+  width: 20px; /* Set the width as you need */
+  height: 20px; /* Set the height as you need */
+  margin-left: 5px; /* Optional, to add some space between the image and the text */
+  cursor: pointer;
+}
   
-  .dropdown-content {
-    display: none;
-    position: absolute; /* Changed from 'center' to 'absolute' */
-    background-color: #ffffff;
-    min-width: 200px;
-    box-shadow: 0px 0px 5px 5px rgba(217, 219, 226, 0.158);
-    z-index: 1;
-    top: 100%;
-    border-radius: 5% 5% 10% 10%;
-  }
+.dropdown-content {
+  display: none;
+  position: absolute; /* Changed from 'center' to 'absolute' */
+  background-color: #ffffff;
+  min-width: 200px;
+  box-shadow: 0px 0px 5px 5px rgba(217, 219, 226, 0.158);
+  z-index: 1;
+  top: 100%;
+  border-radius: 5% 5% 10% 10%;
+}
   
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-family: "Optima", optima;
-  }
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Optima", optima;
+
+}
   
-  .dropdown-content.show {
-    display: block; /* Change to block */
-  }
+.dropdown-content.show {
+  display: block; /* Change to block */
+}
   
-  .dropdown-content a:hover {
-    background-color: #f1f1f1;
-  }
+
   
+.dropdown-content a:hover {
+  background-color: #f1f1f14c;
+  border-radius: 20px;
+}
 
   
 /* additional styling to set up the SVG */
