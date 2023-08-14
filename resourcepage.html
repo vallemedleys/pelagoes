@@ -109,6 +109,7 @@
         <div id="picture-one">
             <a><img src="diary_image.svg" alt="img" ></a>
         </div>
+
 <!-- 
         <div id="buttonWrapper">
             <button id="myButton">
@@ -118,11 +119,15 @@
       --> 
 
     </main>
-    <!-- New Section -->
 
     <section id="new-section">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" class="full-screen-svg">
+        <path d="M0,200 Q250,50 500,200 T1000,350" stroke="white" stroke-dasharray="20,30" fill="none" stroke-width="2"></path>
+      </svg>
       <div id="filterDropdown">
-        <button onclick="toggleDropdown('topicsDropdown')" class="dropbtn">All Topics</button>
+        <button onclick="toggleDropdown('topicsDropdown')" class="dropbtn">All Topics
+          <img src="arrow-img.svg" alt="Description of image" />
+        </button>
         <div id="topicsDropdown" class="dropdown-content">
           <a href="#" onclick="filterDocuments('Atlassain')">All Atlassain Tools</a>
           <a href="#" onclick="filterDocuments('Agile')">Agile</a>
@@ -131,18 +136,19 @@
           <a href="#" onclick="filterDocuments('Confluence')">Jira</a>
         </div>
       <div id="typeDropdownbtn">
-        <button onclick="toggleDropdown('typesDropdown')" class="dropbtn-two">All Types</button>
+        <button onclick="toggleDropdown('typesDropdown')" class="dropbtn-two">All Types
+          <img src="arrow-img.svg" alt="Description of image" /> 
+        </button>
         <div id="typesDropdown" class="dropdown-content">
           <a href="#" onclick="filterDocuments('Articles')">Articles</a>
           <a href="#" onclick="filterDocuments('Case Study')">Case Study</a>
           <a href="#" onclick="filterDocuments('Whitepapers')">Whitepapers</a>
           <a href="#" onclick="filterDocuments('Insights')">Insights</a>
         </div>
-      </div>
       
-      <div id="documents">
+        <div id="documents">
       
-      </div>
+        </div>
     </section>
   </body>
 </html>
